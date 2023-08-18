@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The best pizza</title>
+    <style>
+      body {
+        background: linear-gradient(
+          118.4deg,
+          rgb(122, 35, 52) 27.5%,
+          rgb(62, 9, 27) 92.7%
+        );
+        color: aliceblue;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      img {
+        height: 200px;
+        width: 300px;
+        border-radius: 6px;
+        margin: 20px;
+      }
+      li {
+        font-size: 28px;
+        font-style: italic;
+        color: rgb(255, 233, 68);
+        margin: 20px;
+      }
+      li:hover {
+        color: rgb(247, 122, 6);
+        cursor: pointer;
+      }
+      p {
+        font-size: 18px;
+      }
+
+      .image_header {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/900/original/griby-masliny-picca-0320.jpg?1667210252);
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 0 2px #8c1b21, 0 2px 2px #8c1b21, -2px 0 2px #8c1b21,
+          0 -2px 2px #8c1b21;
+        text-align: center;
+        padding: 80px 0 162px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+      }
+      .text_header {
+        max-width: 1105px;
+        margin: auto;
+      }
+      .pretitle {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+      }
+      .title {
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+        max-width: 650px;
+        margin: 10px auto;
+      }
+      .button {
+        width: 236px;
+        height: 68px;
+        color: aliceblue;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        cursor: pointer;
+      }
+      .button:first-of-type {
+        background-color: #c93015;
+        border: 1px solid #c93015;
+        margin-right: 67px;
+      }
+      .button:last-of-type {
+        background: none;
+        border: 1px solid white;
+      }
+
+      .description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .text_pizza {
+        margin: 20px;
+      }
+      .image_pizza {
+        margin: 20 px;
+      }
+
+      .footer {
+        text-align: center;
+        font-size: 10 px;
+        color: gray;
+      }
+      .name_pizza {
+        font-style: italic;
+        color: rgb(255, 233, 68);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="image_header">
+      <div class="text_header">
+        <h1 class="pretitle">The 5 Most Popular</h1>
+        <h2 class="title">Types of Pizza</h2>
+      </div>
+      <div>
+        <button class="button">🍕🍕🍕</button>
+        <button class="button">Pick a Pizza</button>
+      </div>
+    </section>
+
+    <div class="content">
+      <hr />
+      <ol>
+        <li><strong>Cheese Pizza</strong></li>
+        <div class="description">
+          <div class="image_pizza">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/908/original/slice-hot-italian-pizza-with-stretching-cheese-pizza-four-cheeses-with-basil_79782-3177.jpg?1667214623"
+              alt="Cheese pizza"
+            />
+          </div>
+          <div class="text_pizza">
+            <p>
+              It should be no shocker that a classic is the statistical
+              favorite. <br />
+              <span class="name_pizza">Cheese pizza</span> is one of the most
+              popular choices. <br />
+              It will always be a simple, unadorned masterpiece on its own.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <li><strong>Veggie Pizza</strong></li>
+        <div class="description">
+          <div class="text_pizza">
+            <p>
+              When you want to jazz up your cheese pizza with color and texture,
+              veggies are the perfect topping. <br />
+              And you’re only limited by your imagination. <br />
+              Everything from peppers and mushrooms, to eggplant and onions make
+              for an exciting and tasty
+              <span class="name_pizza">Veggie pizza</span>.
+            </p>
+          </div>
+
+          <div class="image_pizza">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/907/original/Veggie-Pizza-8-500x375.jpg?1667213863"
+              alt=" Veggie Pizza"
+            />
+          </div>
+        </div>
+        <hr />
+        <li><strong>Pepperoni Pizza</strong></li>
+        <div class="description">
+          <div class="image_pizza">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/909/original/Pepperoni-pizza-1300x866.jpg?1667214751"
+              alt="Pepperoni Pizza"
+            />
+          </div>
+          <div class="text_pizza">
+            <p>
+              There’s a reason this is one of the most popular types of pizza.
+              <br />
+              Who doesn’t love biting into a crispy, salty round of
+              <span class="name_pizza">Pepperoni</span>?
+            </p>
+          </div>
+        </div>
+        <hr />
+        <li><strong>Meat Pizza</strong></li>
+        <div class="description">
+          <div class="text_pizza">
+            <p>
+              If pepperoni just isn’t enough, and you’re looking for a pie with
+              a bit more heft, <br />a
+              <span class="name_pizza">Meat pizza</span> is a perfect and
+              popular choice.<br />
+              Pile on ground beef and sausage for a hearty meal.
+            </p>
+          </div>
+          <div class="image_pizza">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/903/original/b1fd4150.jpg?1667211707"
+              alt="Meat Pizza"
+            />
+          </div>
+        </div>
+        <hr />
+        <li><strong>Margherita Pizza</strong></li>
+        <div class="description">
+          <div class="image_pizza">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/910/original/margerita-pizza-3-scaled.jpg?1667214913"
+              alt="Margherita Pizza"
+            />
+          </div>
+          <div class="text_pizza">
+            <p>
+              Deceptively simple, the
+              <span class="name_pizza">Margherita pizza</span> is made with
+              basil, fresh mozzarella, and tomatoes. <br />There’s a reason it’s
+              an Italian staple and one of the most popular types of pizza in
+              the country.
+            </p>
+          </div>
+        </div>
+      </ol>
+      <hr />
+      <div class="footer">
+        <p>
+          Coded by
+          <a href="https://www.linkedin.com/in/yana-teslenko/">Yana Teslenko</a>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function pickPizza() {
+        let name = prompt("What is your name?");
+        let pizza = prompt(
+          "What pizza do you like? Enter a number from 1 to 5"
+        );
+        if (pizza == 1) {
+          alert(name + " likes Cheese 🍕");
+        }
+        if (pizza == 2) {
+          alert(name + " likes Veggie 🍕");
+        }
+        if (pizza == 3) {
+          alert(name + " likes Pepperoni 🍕");
+        }
+        if (pizza == 4) {
+          alert(name + " likes Meat 🍕");
+        }
+        if (pizza == 5) {
+          alert(name + " likes Margherita 🍕");
+        }
+      }
+      let changeButton = document.querySelector("button");
+      changeButton.addEventListener("click", pickPizza);
+      let changeButton1 = document.querySelector("button:last-of-type");
+      changeButton1.addEventListener("click", pickPizza);
+    </script>
+  </body>
+</html>
